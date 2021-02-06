@@ -1,16 +1,13 @@
 # vendingmachineapp
 
-A new Flutter application.
 
-## Getting Started
+**摘要**
+無接觸經濟智慧聯網販賣機以今年疫情影響下而被大眾關注的「無接觸經濟」為核心，
+利用樹莓派(Raspberry Pi)搭配Arduino UNO以及可跨平台的Flutter製作出的App，
+實現同網域中能遠端操作販賣機以及查看即時畫面之功能。
+我們希望此專題的技術未來可以不只用於販賣機，可以延伸使用在其他機台或領域中。
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**概述**
+無接觸經濟智慧聯網販賣機透過App讓使用者能以UDP協定傳送編號至樹莓派，
+再由樹莓派判斷後傳送指令給Aduino UNO來操作販賣機。
+此外還可根據存放於使用者端的購買紀錄長度以表格顯示，記錄還可一鍵刪除。
